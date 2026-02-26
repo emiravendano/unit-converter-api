@@ -1,0 +1,2482 @@
+{
+  "info": {
+    "_postman_id": "8b10e978-b2c0-4ba3-93ea-8b5614b176cd",
+    "name": "Unit Converter API - Reto Técnico",
+    "description": "Colección completa de casuísticas para la API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38133044"
+  },
+  "item": [
+    {
+      "name": "LONGITUD (LENGTH)",
+      "item": [
+        {
+          "name": "Metros a Pies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "10"
+                }
+              ]
+            },
+            "description": "Convierte 10 metros a pies. Resultado esperado: ~32.8084 ft"
+          },
+          "response": [
+            {
+              "name": "200 OK - Metros a Pies",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=10",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "10"
+                    }
+                  ]
+                },
+                "description": "Convierte 10 metros a pies. Resultado esperado: ~32.8084 ft"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"LENGTH\",\n  \"from\": \"METERS\",\n  \"to\": \"FEET\",\n  \"originalValue\": 10.0,\n  \"convertedValue\": 32.8084\n}"
+            }
+          ]
+        },
+        {
+          "name": "Metros a Pulgadas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=INCHES&value=1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "INCHES"
+                },
+                {
+                  "key": "value",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "Convierte 1 metro a pulgadas. Resultado esperado: ~39.3701 in"
+          },
+          "response": [
+            {
+              "name": "200 OK - Metros a Pulgadas",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=INCHES&value=1",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "INCHES"
+                    },
+                    {
+                      "key": "value",
+                      "value": "1"
+                    }
+                  ]
+                },
+                "description": "Convierte 1 metro a pulgadas. Resultado esperado: ~39.3701 in"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"LENGTH\",\n  \"from\": \"METERS\",\n  \"to\": \"INCHES\",\n  \"originalValue\": 1.0,\n  \"convertedValue\": 39.3701\n}"
+            }
+          ]
+        },
+        {
+          "name": "Pies a Metros",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=FEET&to=METERS&value=100",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "FEET"
+                },
+                {
+                  "key": "to",
+                  "value": "METERS"
+                },
+                {
+                  "key": "value",
+                  "value": "100"
+                }
+              ]
+            },
+            "description": "Convierte 100 pies a metros. Resultado esperado: ~30.48 m"
+          },
+          "response": [
+            {
+              "name": "200 OK - Pies a Metros",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=FEET&to=METERS&value=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "to",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "100"
+                    }
+                  ]
+                },
+                "description": "Convierte 100 pies a metros. Resultado esperado: ~30.48 m"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"LENGTH\",\n  \"from\": \"FEET\",\n  \"to\": \"METERS\",\n  \"originalValue\": 100.0,\n  \"convertedValue\": 30.48\n}"
+            }
+          ]
+        },
+        {
+          "name": "Pulgadas a Pies",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=INCHES&to=FEET&value=24",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "INCHES"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "24"
+                }
+              ]
+            },
+            "description": "Convierte 24 pulgadas a pies. Resultado esperado: 2.0 ft"
+          },
+          "response": [
+            {
+              "name": "200 OK - Pulgadas a Pies",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=INCHES&to=FEET&value=24",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "INCHES"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "24"
+                    }
+                  ]
+                },
+                "description": "Convierte 24 pulgadas a pies. Resultado esperado: 2.0 ft"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"LENGTH\",\n  \"from\": \"INCHES\",\n  \"to\": \"FEET\",\n  \"originalValue\": 24.0,\n  \"convertedValue\": 2.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Misma unidad (METERS → METERS)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=METERS&value=5",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "METERS"
+                },
+                {
+                  "key": "value",
+                  "value": "5"
+                }
+              ]
+            },
+            "description": "Misma unidad origen y destino. Debe retornar el mismo valor: 5.0"
+          },
+          "response": [
+            {
+              "name": "200 OK - Misma unidad",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=METERS&value=5",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "5"
+                    }
+                  ]
+                },
+                "description": "Misma unidad origen y destino. Debe retornar el mismo valor: 5.0"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"LENGTH\",\n  \"from\": \"METERS\",\n  \"to\": \"METERS\",\n  \"originalValue\": 5.0,\n  \"convertedValue\": 5.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Unidad no soportada (KILOMETERS)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=KILOMETERS&to=FEET&value=1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "KILOMETERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "ERROR: KILOMETERS no es una unidad soportada. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Unidad no soportada",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=KILOMETERS&to=FEET&value=1",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "KILOMETERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "1"
+                    }
+                  ]
+                },
+                "description": "ERROR: KILOMETERS no es una unidad soportada. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"UNSUPPORTED_UNIT\",\n  \"message\": \"Unidad no soportada: 'KILOMETERS' para el tipo 'LENGTH'\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        }
+      ],
+      "description": "Conversiones entre metros, pulgadas y pies"
+    },
+    {
+      "name": "PESO (WEIGHT)",
+      "item": [
+        {
+          "name": "Kilogramos a Libras",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=KILOGRAMS&to=POUNDS&value=70",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "WEIGHT"
+                },
+                {
+                  "key": "from",
+                  "value": "KILOGRAMS"
+                },
+                {
+                  "key": "to",
+                  "value": "POUNDS"
+                },
+                {
+                  "key": "value",
+                  "value": "70"
+                }
+              ]
+            },
+            "description": "Convierte 70 kg a libras. Resultado esperado: ~154.32 lb"
+          },
+          "response": [
+            {
+              "name": "200 OK - Kilogramos a Libras",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=KILOGRAMS&to=POUNDS&value=70",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "WEIGHT"
+                    },
+                    {
+                      "key": "from",
+                      "value": "KILOGRAMS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "POUNDS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "70"
+                    }
+                  ]
+                },
+                "description": "Convierte 70 kg a libras. Resultado esperado: ~154.32 lb"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"WEIGHT\",\n  \"from\": \"KILOGRAMS\",\n  \"to\": \"POUNDS\",\n  \"originalValue\": 70.0,\n  \"convertedValue\": 154.323584\n}"
+            }
+          ]
+        },
+        {
+          "name": "Kilogramos a Onzas",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=KILOGRAMS&to=OUNCES&value=1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "WEIGHT"
+                },
+                {
+                  "key": "from",
+                  "value": "KILOGRAMS"
+                },
+                {
+                  "key": "to",
+                  "value": "OUNCES"
+                },
+                {
+                  "key": "value",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "Convierte 1 kg a onzas. Resultado esperado: ~35.274 oz"
+          },
+          "response": [
+            {
+              "name": "200 OK - Kilogramos a Onzas",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=KILOGRAMS&to=OUNCES&value=1",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "WEIGHT"
+                    },
+                    {
+                      "key": "from",
+                      "value": "KILOGRAMS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "OUNCES"
+                    },
+                    {
+                      "key": "value",
+                      "value": "1"
+                    }
+                  ]
+                },
+                "description": "Convierte 1 kg a onzas. Resultado esperado: ~35.274 oz"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"WEIGHT\",\n  \"from\": \"KILOGRAMS\",\n  \"to\": \"OUNCES\",\n  \"originalValue\": 1.0,\n  \"convertedValue\": 35.27396\n}"
+            }
+          ]
+        },
+        {
+          "name": "Libras a Kilogramos",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=POUNDS&to=KILOGRAMS&value=150",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "WEIGHT"
+                },
+                {
+                  "key": "from",
+                  "value": "POUNDS"
+                },
+                {
+                  "key": "to",
+                  "value": "KILOGRAMS"
+                },
+                {
+                  "key": "value",
+                  "value": "150"
+                }
+              ]
+            },
+            "description": "Convierte 150 libras a kilogramos. Resultado esperado: ~68.04 kg"
+          },
+          "response": [
+            {
+              "name": "200 OK - Libras a Kilogramos",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=POUNDS&to=KILOGRAMS&value=150",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "WEIGHT"
+                    },
+                    {
+                      "key": "from",
+                      "value": "POUNDS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "KILOGRAMS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "150"
+                    }
+                  ]
+                },
+                "description": "Convierte 150 libras a kilogramos. Resultado esperado: ~68.04 kg"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"WEIGHT\",\n  \"from\": \"POUNDS\",\n  \"to\": \"KILOGRAMS\",\n  \"originalValue\": 150.0,\n  \"convertedValue\": 68.038856\n}"
+            }
+          ]
+        },
+        {
+          "name": "Onzas a Libras",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=OUNCES&to=POUNDS&value=16",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "WEIGHT"
+                },
+                {
+                  "key": "from",
+                  "value": "OUNCES"
+                },
+                {
+                  "key": "to",
+                  "value": "POUNDS"
+                },
+                {
+                  "key": "value",
+                  "value": "16"
+                }
+              ]
+            },
+            "description": "Convierte 16 onzas a libras. Resultado esperado: 1.0 lb (exacto)"
+          },
+          "response": [
+            {
+              "name": "200 OK - Onzas a Libras",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=OUNCES&to=POUNDS&value=16",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "WEIGHT"
+                    },
+                    {
+                      "key": "from",
+                      "value": "OUNCES"
+                    },
+                    {
+                      "key": "to",
+                      "value": "POUNDS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "16"
+                    }
+                  ]
+                },
+                "description": "Convierte 16 onzas a libras. Resultado esperado: 1.0 lb (exacto)"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"WEIGHT\",\n  \"from\": \"OUNCES\",\n  \"to\": \"POUNDS\",\n  \"originalValue\": 16.0,\n  \"convertedValue\": 1.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Unidad no soportada (GRAMS)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=GRAMS&to=POUNDS&value=500",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "WEIGHT"
+                },
+                {
+                  "key": "from",
+                  "value": "GRAMS"
+                },
+                {
+                  "key": "to",
+                  "value": "POUNDS"
+                },
+                {
+                  "key": "value",
+                  "value": "500"
+                }
+              ]
+            },
+            "description": "ERROR: GRAMS no está soportado. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Unidad GRAMS no soportada",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=WEIGHT&from=GRAMS&to=POUNDS&value=500",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "WEIGHT"
+                    },
+                    {
+                      "key": "from",
+                      "value": "GRAMS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "POUNDS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "500"
+                    }
+                  ]
+                },
+                "description": "ERROR: GRAMS no está soportado. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"UNSUPPORTED_UNIT\",\n  \"message\": \"Unidad no soportada: 'GRAMS' para el tipo 'WEIGHT'\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        }
+      ],
+      "description": "Conversiones entre kilogramos, libras y onzas"
+    },
+    {
+      "name": "TEMPERATURA (TEMPERATURE)",
+      "item": [
+        {
+          "name": "Celsius a Fahrenheit (punto de ebullición)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=100",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "to",
+                  "value": "FAHRENHEIT"
+                },
+                {
+                  "key": "value",
+                  "value": "100"
+                }
+              ]
+            },
+            "description": "Punto de ebullición del agua: 100°C = 212°F (valor exacto)"
+          },
+          "response": [
+            {
+              "name": "200 OK - 100°C a Fahrenheit",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FAHRENHEIT"
+                    },
+                    {
+                      "key": "value",
+                      "value": "100"
+                    }
+                  ]
+                },
+                "description": "Punto de ebullición del agua: 100°C = 212°F (valor exacto)"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"TEMPERATURE\",\n  \"from\": \"CELSIUS\",\n  \"to\": \"FAHRENHEIT\",\n  \"originalValue\": 100.0,\n  \"convertedValue\": 212.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Celsius a Fahrenheit (punto de congelación)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=0",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "to",
+                  "value": "FAHRENHEIT"
+                },
+                {
+                  "key": "value",
+                  "value": "0"
+                }
+              ]
+            },
+            "description": "ERROR ESPERADO: value=0 no pasa @Positive. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - value=0 no es positivo",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=0",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FAHRENHEIT"
+                    },
+                    {
+                      "key": "value",
+                      "value": "0"
+                    }
+                  ]
+                },
+                "description": "ERROR ESPERADO: value=0 no pasa @Positive. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"VALIDATION_ERROR\",\n  \"message\": \"convert.value: El valor debe ser mayor que cero\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Celsius a Fahrenheit (temperatura corporal)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=37",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "to",
+                  "value": "FAHRENHEIT"
+                },
+                {
+                  "key": "value",
+                  "value": "37"
+                }
+              ]
+            },
+            "description": "Temperatura corporal normal: 37°C = 98.6°F"
+          },
+          "response": [
+            {
+              "name": "200 OK - 37°C a Fahrenheit",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=CELSIUS&to=FAHRENHEIT&value=37",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FAHRENHEIT"
+                    },
+                    {
+                      "key": "value",
+                      "value": "37"
+                    }
+                  ]
+                },
+                "description": "Temperatura corporal normal: 37°C = 98.6°F"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"TEMPERATURE\",\n  \"from\": \"CELSIUS\",\n  \"to\": \"FAHRENHEIT\",\n  \"originalValue\": 37.0,\n  \"convertedValue\": 98.6\n}"
+            }
+          ]
+        },
+        {
+          "name": "Fahrenheit a Celsius (punto de congelación)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=FAHRENHEIT&to=CELSIUS&value=32",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "FAHRENHEIT"
+                },
+                {
+                  "key": "to",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "value",
+                  "value": "32"
+                }
+              ]
+            },
+            "description": "32°F = 0°C (punto de congelación del agua)"
+          },
+          "response": [
+            {
+              "name": "200 OK - 32°F a Celsius",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=FAHRENHEIT&to=CELSIUS&value=32",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "FAHRENHEIT"
+                    },
+                    {
+                      "key": "to",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "32"
+                    }
+                  ]
+                },
+                "description": "32°F = 0°C (punto de congelación del agua)"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"TEMPERATURE\",\n  \"from\": \"FAHRENHEIT\",\n  \"to\": \"CELSIUS\",\n  \"originalValue\": 32.0,\n  \"convertedValue\": 0.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Fahrenheit a Celsius (ebullición)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=FAHRENHEIT&to=CELSIUS&value=212",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "FAHRENHEIT"
+                },
+                {
+                  "key": "to",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "value",
+                  "value": "212"
+                }
+              ]
+            },
+            "description": "212°F = 100°C (punto de ebullición del agua)"
+          },
+          "response": [
+            {
+              "name": "200 OK - 212°F a Celsius",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=FAHRENHEIT&to=CELSIUS&value=212",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "FAHRENHEIT"
+                    },
+                    {
+                      "key": "to",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "212"
+                    }
+                  ]
+                },
+                "description": "212°F = 100°C (punto de ebullición del agua)"
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"TEMPERATURE\",\n  \"from\": \"FAHRENHEIT\",\n  \"to\": \"CELSIUS\",\n  \"originalValue\": 212.0,\n  \"convertedValue\": 100.0\n}"
+            }
+          ]
+        },
+        {
+          "name": "Unidad no soportada (KELVIN)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=KELVIN&to=CELSIUS&value=273",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "TEMPERATURE"
+                },
+                {
+                  "key": "from",
+                  "value": "KELVIN"
+                },
+                {
+                  "key": "to",
+                  "value": "CELSIUS"
+                },
+                {
+                  "key": "value",
+                  "value": "273"
+                }
+              ]
+            },
+            "description": "ERROR: KELVIN no está soportado. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - KELVIN no soportado",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=TEMPERATURE&from=KELVIN&to=CELSIUS&value=273",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "TEMPERATURE"
+                    },
+                    {
+                      "key": "from",
+                      "value": "KELVIN"
+                    },
+                    {
+                      "key": "to",
+                      "value": "CELSIUS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "273"
+                    }
+                  ]
+                },
+                "description": "ERROR: KELVIN no está soportado. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"UNSUPPORTED_UNIT\",\n  \"message\": \"Unidad no soportada: 'KELVIN' para el tipo 'TEMPERATURE'\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        }
+      ],
+      "description": "Conversiones entre Celsius y Fahrenheit"
+    },
+    {
+      "name": "MONEDA (CURRENCY)",
+      "item": [
+        {
+          "name": "USD a PEN (Soles peruanos)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=PEN&value=100",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "USD"
+                },
+                {
+                  "key": "to",
+                  "value": "PEN"
+                },
+                {
+                  "key": "value",
+                  "value": "100"
+                }
+              ]
+            },
+            "description": "Convierte 100 USD a soles peruanos. Tasa obtenida en tiempo real de la API externa."
+          },
+          "response": [
+            {
+              "name": "200 OK - USD a PEN",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=PEN&value=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "to",
+                      "value": "PEN"
+                    },
+                    {
+                      "key": "value",
+                      "value": "100"
+                    }
+                  ]
+                },
+                "description": "Convierte 100 USD a soles peruanos. Tasa obtenida en tiempo real de la API externa."
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"CURRENCY\",\n  \"from\": \"USD\",\n  \"to\": \"PEN\",\n  \"originalValue\": 100.0,\n  \"convertedValue\": 375.23\n}"
+            }
+          ]
+        },
+        {
+          "name": "USD a EUR",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=EUR&value=100",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "USD"
+                },
+                {
+                  "key": "to",
+                  "value": "EUR"
+                },
+                {
+                  "key": "value",
+                  "value": "100"
+                }
+              ]
+            },
+            "description": "Convierte 100 USD a Euros. Tasa en tiempo real."
+          },
+          "response": [
+            {
+              "name": "200 OK - USD a EUR",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=EUR&value=100",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "to",
+                      "value": "EUR"
+                    },
+                    {
+                      "key": "value",
+                      "value": "100"
+                    }
+                  ]
+                },
+                "description": "Convierte 100 USD a Euros. Tasa en tiempo real."
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"CURRENCY\",\n  \"from\": \"USD\",\n  \"to\": \"EUR\",\n  \"originalValue\": 100.0,\n  \"convertedValue\": 92.31\n}"
+            }
+          ]
+        },
+        {
+          "name": "PEN a USD",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=PEN&to=USD&value=1000",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "PEN"
+                },
+                {
+                  "key": "to",
+                  "value": "USD"
+                },
+                {
+                  "key": "value",
+                  "value": "1000"
+                }
+              ]
+            },
+            "description": "Convierte 1000 soles peruanos a dólares."
+          },
+          "response": [
+            {
+              "name": "200 OK - PEN a USD",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=PEN&to=USD&value=1000",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "PEN"
+                    },
+                    {
+                      "key": "to",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "value",
+                      "value": "1000"
+                    }
+                  ]
+                },
+                "description": "Convierte 1000 soles peruanos a dólares."
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"CURRENCY\",\n  \"from\": \"PEN\",\n  \"to\": \"USD\",\n  \"originalValue\": 1000.0,\n  \"convertedValue\": 266.67\n}"
+            }
+          ]
+        },
+        {
+          "name": "EUR a PEN",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=EUR&to=PEN&value=50",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "EUR"
+                },
+                {
+                  "key": "to",
+                  "value": "PEN"
+                },
+                {
+                  "key": "value",
+                  "value": "50"
+                }
+              ]
+            },
+            "description": "Convierte 50 Euros a soles peruanos."
+          },
+          "response": [
+            {
+              "name": "200 OK - EUR a PEN",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=EUR&to=PEN&value=50",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "EUR"
+                    },
+                    {
+                      "key": "to",
+                      "value": "PEN"
+                    },
+                    {
+                      "key": "value",
+                      "value": "50"
+                    }
+                  ]
+                },
+                "description": "Convierte 50 Euros a soles peruanos."
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"CURRENCY\",\n  \"from\": \"EUR\",\n  \"to\": \"PEN\",\n  \"originalValue\": 50.0,\n  \"convertedValue\": 203.45\n}"
+            }
+          ]
+        },
+        {
+          "name": "USD a GBP",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=GBP&value=200",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "USD"
+                },
+                {
+                  "key": "to",
+                  "value": "GBP"
+                },
+                {
+                  "key": "value",
+                  "value": "200"
+                }
+              ]
+            },
+            "description": "Convierte 200 USD a libras esterlinas."
+          },
+          "response": [
+            {
+              "name": "200 OK - USD a GBP",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=GBP&value=200",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "to",
+                      "value": "GBP"
+                    },
+                    {
+                      "key": "value",
+                      "value": "200"
+                    }
+                  ]
+                },
+                "description": "Convierte 200 USD a libras esterlinas."
+              },
+              "status": "OK",
+              "code": 200,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"type\": \"CURRENCY\",\n  \"from\": \"USD\",\n  \"to\": \"GBP\",\n  \"originalValue\": 200.0,\n  \"convertedValue\": 157.8\n}"
+            }
+          ]
+        },
+        {
+          "name": "Moneda no soportada (BITCOIN)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=BITCOIN&value=1",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "CURRENCY"
+                },
+                {
+                  "key": "from",
+                  "value": "USD"
+                },
+                {
+                  "key": "to",
+                  "value": "BITCOIN"
+                },
+                {
+                  "key": "value",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "ERROR: BITCOIN no está en la lista de monedas soportadas. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - BITCOIN no soportado",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=CURRENCY&from=USD&to=BITCOIN&value=1",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "CURRENCY"
+                    },
+                    {
+                      "key": "from",
+                      "value": "USD"
+                    },
+                    {
+                      "key": "to",
+                      "value": "BITCOIN"
+                    },
+                    {
+                      "key": "value",
+                      "value": "1"
+                    }
+                  ]
+                },
+                "description": "ERROR: BITCOIN no está en la lista de monedas soportadas. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"UNSUPPORTED_UNIT\",\n  \"message\": \"Unidad no soportada: 'BITCOIN' para el tipo 'CURRENCY'\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        }
+      ],
+      "description": "Conversiones de moneda usando API externa ExchangeRate-API"
+    },
+    {
+      "name": "X ERRORES GLOBALES",
+      "item": [
+        {
+          "name": "Tipo de conversión no soportado (VOLUME)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=VOLUME&from=LITERS&to=GALLONS&value=5",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "VOLUME"
+                },
+                {
+                  "key": "from",
+                  "value": "LITERS"
+                },
+                {
+                  "key": "to",
+                  "value": "GALLONS"
+                },
+                {
+                  "key": "value",
+                  "value": "5"
+                }
+              ]
+            },
+            "description": "ERROR: VOLUME no es un tipo soportado. Solo: LENGTH, WEIGHT, TEMPERATURE, CURRENCY."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Tipo VOLUME no soportado",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=VOLUME&from=LITERS&to=GALLONS&value=5",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "VOLUME"
+                    },
+                    {
+                      "key": "from",
+                      "value": "LITERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "GALLONS"
+                    },
+                    {
+                      "key": "value",
+                      "value": "5"
+                    }
+                  ]
+                },
+                "description": "ERROR: VOLUME no es un tipo soportado. Solo: LENGTH, WEIGHT, TEMPERATURE, CURRENCY."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"UNSUPPORTED_CONVERSION_TYPE\",\n  \"message\": \"Tipo de conversión no soportado: 'VOLUME'. Tipos válidos: LENGTH, WEIGHT, TEMPERATURE, CURRENCY\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Valor negativo (-5)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=-5",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "-5"
+                }
+              ]
+            },
+            "description": "ERROR: El valor no puede ser negativo (@Positive). Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Valor negativo",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=-5",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "-5"
+                    }
+                  ]
+                },
+                "description": "ERROR: El valor no puede ser negativo (@Positive). Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"VALIDATION_ERROR\",\n  \"message\": \"convert.value: El valor debe ser mayor que cero\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Valor no numérico (abc)",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=abc",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "abc"
+                }
+              ]
+            },
+            "description": "ERROR: 'abc' no es un número. Spring no puede convertirlo a Double."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Valor no numérico",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET&value=abc",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "abc"
+                    }
+                  ]
+                },
+                "description": "ERROR: 'abc' no es un número. Spring no puede convertirlo a Double."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"INVALID_PARAMETER_TYPE\",\n  \"message\": \"Valor inválido para el parámetro 'value': se esperaba Double\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Parámetro 'type' faltante",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?from=METERS&to=FEET&value=10",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "",
+                  "disabled": true
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "10"
+                }
+              ]
+            },
+            "description": "ERROR: Falta el parámetro obligatorio 'type'. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Parámetro type faltante",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?from=METERS&to=FEET&value=10",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "",
+                      "disabled": true
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "10"
+                    }
+                  ]
+                },
+                "description": "ERROR: Falta el parámetro obligatorio 'type'. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"MISSING_PARAMETER\",\n  \"message\": \"Parámetro requerido faltante: type\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Parámetro 'value' faltante",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ],
+              "query": [
+                {
+                  "key": "type",
+                  "value": "LENGTH"
+                },
+                {
+                  "key": "from",
+                  "value": "METERS"
+                },
+                {
+                  "key": "to",
+                  "value": "FEET"
+                },
+                {
+                  "key": "value",
+                  "value": "",
+                  "disabled": true
+                }
+              ]
+            },
+            "description": "ERROR: Falta el parámetro 'value'. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Parámetro value faltante",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert?type=LENGTH&from=METERS&to=FEET",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ],
+                  "query": [
+                    {
+                      "key": "type",
+                      "value": "LENGTH"
+                    },
+                    {
+                      "key": "from",
+                      "value": "METERS"
+                    },
+                    {
+                      "key": "to",
+                      "value": "FEET"
+                    },
+                    {
+                      "key": "value",
+                      "value": "",
+                      "disabled": true
+                    }
+                  ]
+                },
+                "description": "ERROR: Falta el parámetro 'value'. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"MISSING_PARAMETER\",\n  \"message\": \"Parámetro requerido faltante: value\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        },
+        {
+          "name": "Todos los parámetros faltantes",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/convert",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "api",
+                "convert"
+              ]
+            },
+            "description": "ERROR: Request completamente vacío. Debe retornar 400."
+          },
+          "response": [
+            {
+              "name": "400 Bad Request - Sin parámetros",
+              "originalRequest": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                  "raw": "{{baseUrl}}/api/convert",
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "path": [
+                    "api",
+                    "convert"
+                  ]
+                },
+                "description": "ERROR: Request completamente vacío. Debe retornar 400."
+              },
+              "status": "Bad Request",
+              "code": 400,
+              "_postman_previewlanguage": "Text",
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "cookie": [],
+              "body": "{\n  \"status\": 400,\n  \"error\": \"MISSING_PARAMETER\",\n  \"message\": \"Parámetro requerido faltante: type\",\n  \"timestamp\": \"2024-04-25T10:30:00\"\n}"
+            }
+          ]
+        }
+      ],
+      "description": "Casuísticas de errores de validación y parámetros inválidos"
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:8080",
+      "type": "string",
+      "description": "URL base del servidor. Cambiar a producción cuando corresponda."
+    }
+  ]
+}
